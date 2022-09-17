@@ -5,7 +5,7 @@ const contenido = [
     foto: "https://mitokenonline.com/wp-content/uploads/2022/02/token-digital-bcp-1024x532.png",
     titulo: "Banca Móvil BCP Backend Microservicios ",
     descripcion: "Trabajo realizado con Spring, Java 11, Redis, Junit4-5, Fortify, DEVOPS, Jenkins, etc.",
-    link: "https://github.com/AndresLlanos0498/Calculadora-JS-CSS-y-HTML"
+    link: "https://www.viabcp.com/canales/banca-movil"
   },
   {
     foto: "https://static.wixstatic.com/media/5efac2_1b9190101fd54944b93367c95fe0a906~mv2.jpg/v1/fill/w_1583,h_415,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5efac2_1b9190101fd54944b93367c95fe0a906~mv2.jpg",
