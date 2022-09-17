@@ -1,0 +1,136 @@
+.nav {
+  height: 80px;
+  transition: all ease-in-out 400ms;
+  //#5b46de
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navscroll {
+  height: 100px;
+  transition: all ease-in-out 250ms;
+  //#5b46de
+  background-color: #5b46de;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+.imgcontainer{
+  margin: auto;
+    display: flex;
+    width: 50px;
+    
+    
+}
+.mobileimg{
+  width: 50px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Arvo", serif;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.nav .MobileNavigation {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .nav .Navigation {
+    display: none;
+  }
+  .nav .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+  .nav .MobileNavigation .Hamburger {
+    position: relative;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .nav nav ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    z-index: 50000000;
+    right: 0;
+    width: 100%;
+    max-width: 990px;
+    background: #5b46de;
+    border-top: 2px solid white;
+  }
+  .nav nav a{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav{
+    opacity: 1;
+  }
+
+  .nav a:hover{
+    border-bottom: none;
+    color: green;
+  }
+  .nav__buttom_container{
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .nav .MobileNavigation .Hamburger {
+    position: relative;
+    cursor: pointer;
+  }
+  .imgcontainer{margin: auto;
+    display: flex;
+    margin-right: 650px;
+}
+
+}
+@media (max-width: 450px) {
+  .nav .MobileNavigation .Hamburger {
+    position: relative;
+    cursor: pointer;
+    right: 5%;
+    width: 100%;
+    
+  }
+  .nav nav ul{
+    width: 100%;
+  }
+  .imgcontainer{margin: auto;
+    display: flex;
+    margin-right: 300px;
+}
+}
+
+@media (min-width: 0px) and (max-width: 390px){
+  .nav .MobileNavigation .Hamburger {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    
+  }
+  .nav nav ul li a{
+    width: 100%;
+  }
+}

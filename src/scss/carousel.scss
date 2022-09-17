@@ -1,0 +1,15 @@
+.__carousel {
+  background: rgb(91, 70, 222);
+  background: linear-gradient(
+    180deg,
+    rgba(91, 70, 222, 1) 0%,
+    rgba(59, 54, 150, 1) 50%,
+    rgba(9, 9, 121, 1) 100%
+  );
+  &__container{
+      width: 100%;
+      max-width: 1600px;
+
+  }
+}
+
