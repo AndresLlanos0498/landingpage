@@ -105,7 +105,7 @@ const Conocimientos = () => {
   return (
     <section id="conocimientos">
     <div className="__cardsknow">
-      <h1 className="__cards__title">Conocimientos Nivel Junior</h1>
+      <h1 className="__cards__title">Conocimientos Nivel Senior</h1>
       <div className="__cardsknow__container">
         {contenido.map((e) => (
           <div className="__cardsknow__items">
