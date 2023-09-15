@@ -14,7 +14,7 @@ const contenido = [
     link: "https://github.com/ajulcala/DiagramLx/blob/main/microservicio-alx.png"
   },
   {
-    foto: "https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/239994417_109575391456402_8573325861675181397_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=mtUfkZ8U5_0AX9nWlC6&_nc_ht=scontent-lim1-1.xx&oh=00_AT9NYKEJjvLTtO_XBKKD3AtgxVozfdoG3DVzcom24Kojmw&oe=632A7836",
+    foto: "https://www.coldfreshrv.com/static/media/tecnico.4127ee51.jpg",
     titulo: "Proyecto Front-End Cold Fresh RV",
     descripcion: "Desarrollado con ReactJs, utilizando HTML y SCSS.",
     link: "https://www.coldfreshrv.com/"
