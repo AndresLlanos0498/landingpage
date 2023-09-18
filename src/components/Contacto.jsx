@@ -13,10 +13,10 @@ function ContactForm() {
             alt="thanks"
           />
           <alert className="__agradecimiento__titulo">
-            Muchas gracias por su comentario e invitacion, en breves estaremos
+            Muchas gracias por su comentario e invitacion, en breve estaremos
             en contacto, hasta luego.<br/>
             Andres Llanos del Aguila <br/>
-            Front End Developer
+            Developer
           </alert>
         </div>
       </div>
@@ -25,7 +25,7 @@ function ContactForm() {
   return (
     <section id="contacto">
     <form onSubmit={handleSubmit} className="__form">
-      <h1 className="__cards__title">Contactame</h1>
+      <h1 className="__cards__title">Contactame (Sin miedo, si funciona el formulario) 😉</h1>
       <div className="__form__container">
         <label htmlFor="email" className="__form__titulo">
           Email *

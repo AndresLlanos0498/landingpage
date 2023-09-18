@@ -43,7 +43,7 @@ const Proyectos = () => {
   return (
     <section id="proyectos">
     <div className="__cards">
-      <h1 className="__cards__title">Participación en Proyectos</h1>
+      <h1 className="__cards__title">Participación en Proyectos 👨‍💻</h1>
         <div className="__cards__container">
           {contenido.map((e) => (
             <div className="__cards__items">

@@ -20,7 +20,7 @@ const contenido = [
   {
     foto: aboutme1,
     titulo: "Andres Enrique Llanos del Aguila",
-    descripcion: "Técnico de la carrera Desarrollo de Sistemas en IDAT, mis habilidades son: proactividad, creatividad e iniciativa propia. Tengo interés en desarrollarme en áreas como, desarrollador back end, front end, etc. Me considero una persona autodidacta, ya que mayormente todo lo practicado y demostrado en proyectos que he realizado, es de aprendizaje externo. Y tengo en cuenta que no hay que dejar de aprender, siempre habrán cosas nuevas."
+    descripcion: "Desarrollador de sistemas, mis habilidades son creatividad, resolución de problemas e iniciativa propia. Tengo interés en desarrollarme en áreas como, desarrollador web, backend, frontend(FullStack). Me considero una persona autodidacta, ya que mayormente todo lo practicado y demostrado en proyectos que he realizado, es de aprendizaje externo. Y tengo en cuenta que no hay que dejar de aprender, siempre habrán cosas nuevas."
   }
 ];
 
